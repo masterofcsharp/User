@@ -1,15 +1,31 @@
 body {
-  background-color: E5E5E5;
+  background-color: #f6f6fa;
   font-family: 'Montserrat', sans-serif;
 }
 
+/* Right section styles */
+
 .right-section {
   padding-left: 88px;
+  padding-right: 220px;
+  background-color: #fff;
 }
 
 .about-me-profession {
-  font-size: 14px;
   color: black;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 100px;
+}
+
+#personName {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 19px;
 }
 
 .main-section {
@@ -20,19 +36,127 @@ body {
 }
 
 .about-me-section {
-  background-color: red;
-  padding-bottom: 15px;
-  padding-top: 15px;
-  padding-right: 15px;
-  margin-bottom: 50px;
+  width: 525px;
 }
 
-.projects-section {
-  background-color: chocolate;
+.about-me-section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.projects-sections {
+  margin: 64px 0 0 0;
+}
+
+.block-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.projects-sections ol {
+  padding-left: 18px;
+}
+
+ol li,
+.bracket {
+  font-weight: 700;
+  color: #000000;
+}
+
+.projects-item {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-left: 10px;
+  text-decoration-line: underline;
+
+  color: #005fff;
+}
+
+.projects-item a {
+  color: #005fff;
 }
 
 .work-experience-section {
-  background-color: aqua;
+  margin-top: 50px;
+}
+
+.work-experience-position {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.work-experience-company {
+  color: #6d9bf5;
+}
+
+.work-experience-period {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+}
+
+.line-break {
+  color: #000;
+}
+
+.work-experience-duties {
+  padding-left: 18px;
+}
+
+.work-experience-duties li {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.education {
+  padding-bottom: 130px;
+}
+
+.form-of-education {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+}
+
+.form-of-education-specialisation {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.education-period {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #000000;
 }
 
 /* Siderbar styles */
