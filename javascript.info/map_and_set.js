@@ -32,6 +32,7 @@ visitsCountObj[john] = 123 // try to use john object as the key, ben object will
 // That's what got written!
 alert( visitsCountObj["[object Object]"] ); // 123
 
-
-
+map.set('1', 'str1')
+  .set(1, 'num1')
+  .set(true, 'bool1');
 
