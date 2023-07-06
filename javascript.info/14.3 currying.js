@@ -67,3 +67,14 @@ let curriedSum = curry(sum);
 alert( curriedSum(1, 2, 3) ); // 6, still callable normally
 alert( curriedSum(1)(2,3) ); // 6, currying of 1st arg
 alert( curriedSum(1)(2)(3) ); // 6, full currying
+
+// func is the function to transform
+function curried(...args) {
+  if (args.length >= func.length) { // (1)
+    return func.apply(this, args);
+  } else {
+    return function(...args2) { // (2)
+      return curried.apply(this, args.concat(args2));
+    }
+  }
+};
