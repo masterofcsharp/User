@@ -20,3 +20,18 @@ let visitsCountMap = new Map();
 visitsCountMap.set(john, 123);
 
 alert( visitsCountMap.get(john) ); //123
+
+let john = { name: "John" };
+let ben = { name: "Ben" };
+
+let visitsCountObj = {}; // try to use an object
+
+visitsCountObj[ben] = 234; // try to use ben object as the key
+visitsCountObj[john] = 123 // try to use john object as the key, ben object will get replaced
+
+// That's what got written!
+alert( visitsCountObj["[object Object]"] ); // 123
+
+
+
+
