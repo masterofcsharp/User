@@ -10,3 +10,13 @@ alert( map.get(1) ); // 'num1'
 alert( map.get('1') ); // 'str1'
 
 alert( map.size ); // 3
+
+let john = { name: "John" };
+
+// for every user, let's store their visits count
+let visitsCountMap = new Map();
+
+// john is the key for the map
+visitsCountMap.set(john, 123);
+
+alert( visitsCountMap.get(john) ); //123
