@@ -88,4 +88,25 @@ padd: top right bottom left, sus dreapta jos stanga, invers acelor de ceasornic
 padding: 5px solid black; sets the values for the width style and color of the border
 5 pixel wide solid black on all sides of the body
 
+
+
 */
+
+
+/*positioning and styling the main page title*/
+
+h1 {
+
+    margin: 0; /* overwrites the bassing hoirrible gap at the top of the body
+    set by default by the browser*/
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;    /*3rd px sets the blur radius of the shadow
+    4th px sets the base color of the shadow
+    1st and 2nd px horizontal and vertical offsets*/
+}
+
+img {
+    display: block;
+    margin: 0 auto; /*how to center an image*/
+}
