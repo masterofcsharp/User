@@ -62,3 +62,16 @@ display sets the display mode of an element
 
 */
 
+html {
+    background-color: #00539f;
+}
+
+/* styling the body*/
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff9500;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
