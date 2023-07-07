@@ -109,4 +109,9 @@ h1 {
 img {
     display: block;
     margin: 0 auto; /*how to center an image*/
+
+    /*images are inline elements, sso for the auto marin trick to work on this image
+    we must give it block-lvl behaviour using display: block
+    we dont have to do this for the body element because the body is already a block
+    elemetn*/
 }
