@@ -75,3 +75,14 @@ body {
     border: 5px solid black;
 }
 
+/* width 600 px forces the body to always be 600 px wide
+margin 0 auto -> when it has 2 values, a prop like margin or padding saffects the elemtns
+top and btm sides. the 2nd value affects the lft and right side. 0 top bot
+auto is a special value that divides /2 the horizpntal space betw left and right evenly
+
+
+bkg clr: orange sets the nuance to orrange for th body as opposed to blue for the html elemtn
+
+
+
+*/
