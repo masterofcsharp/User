@@ -16,5 +16,12 @@ h1 {
 
 /* 
 p selects <p>
-
+#mi-id selects <p id="my-id" or <a id="my-id">
+.my-class selects <p id="my-id"> or <a id="my-id">
+attribute selector: img[src] selects <img src="myimage.png">
+but not <img>
+pseudo-class selector selects the specified element(s) but
+only when in the specified state. (For example, when a 
+cursor hovers over a link.). a:hover selects <a>, but only
+when the mouse pointer is hovering over the link
 */
