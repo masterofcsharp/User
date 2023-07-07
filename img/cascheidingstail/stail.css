@@ -83,6 +83,9 @@ auto is a special value that divides /2 the horizpntal space betw left and right
 
 bkg clr: orange sets the nuance to orrange for th body as opposed to blue for the html elemtn
 
+padd: top right bottom left, sus dreapta jos stanga, invers acelor de ceasornic
 
+padding: 5px solid black; sets the values for the width style and color of the border
+5 pixel wide solid black on all sides of the body
 
 */
