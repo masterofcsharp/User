@@ -62,5 +62,20 @@ a:hover {
 inside an <article>*/
 
 article p span {
-    
+
+}
+
+/* selects any <p> thatcomes directly after a <ul>. which comes directly 
+
+after an h1
+*/
+
+h1 + ul + p {
+
+}
+
+body h1 + p .speciial {
+    color: yellow;
+    background-color: black;
+    padding: 5px;
 }
