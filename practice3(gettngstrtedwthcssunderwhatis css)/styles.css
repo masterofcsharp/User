@@ -40,3 +40,27 @@ span.speciial
 li em {
     color: rebeccapurple;
 }
+
+h1 + p {
+    font-size: 200%;
+}
+
+a:link {
+    color: pink;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* selects any <span> that is inside a <p> which is
+
+inside an <article>*/
+
+article p span {
+    
+}
